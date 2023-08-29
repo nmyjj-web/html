@@ -23,8 +23,13 @@
       </span>
 		<a class="mdui-typo-headline mdui-hidden-xs">啊？</a>
 		<div class="mdui-toolbar-spacer"></div>
+	  <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" id="report">
+        <i class="mdui-icon material-icons">report_problem</i>
+      </span>
 	</div>
 </header>
+
+<script>var$=mdui.$;$('#report').on('click',function(){mdui.snackbar({message:'这个是干嘛用的？'});});</script>
 
     <div class="mdui-drawer" id="main-drawer">
         <div class="mdui-list">
@@ -32,6 +37,7 @@
                 <div class="mdui-list-item-content">首页</div>
             </a>
             <!--可以再加点东西-->
+            </ul>
             <div class="mdui-divider"></div>
             <a class="mdui-list-item mdui-ripple mdui-list-item" href="/about"><i class="mdui-list-item-icon mdui-icon material-icons">info</i>
                 <div class="mdui-list-item-content">关于</div>
@@ -45,7 +51,7 @@
                 <div class="mdui-col">
                     <a href="video/vip.m3u8">
                         <div class="mdui-grid-tile">
-                            <img src="./assets/thumb/vip.jpg" onerror="this.src='/assets/error.jpg'">
+                            <img src="./assets/acceed/vip.jpg" onerror="this.src='/assets/error.jpg'">
                             <div class="mdui-grid-tile-actions"><div class="mdui-grid-tile-text"><div class="mdui-grid-tile-title">
                             [中文字幕]会员制餐厅
                             </div></div></div>
@@ -53,7 +59,28 @@
                     </a>
                 </div>
 <!---->
+                <div class="mdui-col">
+                    <a href="videos/coat/cf/先辈采访.m3u8">
+                        <div class="mdui-grid-tile">
+                            <img src="./assets/coat/cf.jpg" onerror="this.src='/assets/error.jpg'">
+                            <div class="mdui-grid-tile-actions"><div class="mdui-grid-tile-text"><div class="mdui-grid-tile-title">
+                            先辈采访
+                            </div></div></div>
+                        </div>
+                    </a>
+                </div>
+                <div class="mdui-col">
+                    <a href="videos/acceed/doctor/淳平医生.m3u8">
+                        <div class="mdui-grid-tile">
+                            <img src="./assets/acceed/doctor.jpg" onerror="this.src='/assets/error.jpg'">
+                            <div class="mdui-grid-tile-actions"><div class="mdui-grid-tile-text"><div class="mdui-grid-tile-title">
+                            淳平医生
+                            </div></div></div>
+                        </div>
+                    </a>
+                </div>
         </div>
     </div>
 </body>
 </html>
+
