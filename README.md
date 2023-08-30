@@ -1,3 +1,3 @@
-# html+mdui
-html https://nmyjj.eu.org/
-mdui https://www.mdui.org/docs/
+# html
+我的网站 https://nmyjj.eu.org/
+随缘更新
